@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Car Dealership</title>
+<title>Prativa Motors Dealership</title>
 
 <style>
 body {
@@ -18,7 +18,7 @@ body {
 
 /* Header */
 header {
-    background: black;
+    background: rgb(0, 0, 0);
     color: white;
     text-align: center;
     padding: 15px;
@@ -64,6 +64,11 @@ section {
 .card img {
     width: 100%;
     border-radius: 8px;
+
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+ 
 }
 
 /* Form */
@@ -132,6 +137,7 @@ input {
             <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6">
             <h3>Hyundai Tucson</h3>
             <p>$28,000</p>
+
         </div>
 
     </div>
@@ -139,7 +145,9 @@ input {
 
 <!-- TEAM -->
 <section id="team">
-    <h2>Our Team</h2>
+    <h2>
+     <b>Team in Business</b>
+    </h2>
 
     <div class="grid">
         <div class="card">Kushal</div>
@@ -162,7 +170,7 @@ input {
         <input type="text">
 
         Phone:
-        <input type="text">
+     <input type="number" >
 
         <input type="submit" value="Register">
     </form>
